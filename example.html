@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Magic datatable example</title>
+	</head>
+	<body>
+		<table class="ajax-datatable" data-url="/server/json">
+			<thead>
+				<tr>
+					<th data-id="lastname" searchable="true" orderable="true">Lastname</th>
+					<th data-id="firstname" searchable="true" orderable="true">Firstname</th>
+					<th data-id="date_birth" orderable="true" className="text-center">Birthdate</th>
+					<th data-id="gender_id"  orderable="true" className="text-center">Gender</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+			<tfoot>
+				<tr class="template">
+					<td id="lastname">
+						<a href="/server/show/person/*id*" title="show person *nom*">*nom*</a>
+					</td>
+					<td id="firstname">*structure_nom*</td>
+					<td id="date_birth">*date_birth*</td>
+					<td id="gender_id">
+						<condition key="gender_id" value="1">
+							Male
+						</condition>
+						<condition key="gender_id" value="2">
+							Female
+						</condition>
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
