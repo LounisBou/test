@@ -29,7 +29,7 @@ Auto declare a datatable working in ajax
  *  Others operators allow are : !=, <, <=, >, >= and should be use by prefixing match_value 
  *  the desired operator. 
  *    Exemple : < condition key="statut" value=">=3" >
- *              Condition will be display if statut field of your JSON is superior or equal to 3 on this line.
+ *    Condition will be display if statut field of your JSON is superior or equal to 3 on this line.
  *
  *
  *	- Javascripts	:
