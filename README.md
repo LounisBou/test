@@ -1,7 +1,5 @@
 # magic-datatable-script
-Auto declare a datatable working in ajax
 
-* Magic-datatable :
 Library to make a datatable AJAX instance on a HTML declarated table.
 
 - Ajax 	:
