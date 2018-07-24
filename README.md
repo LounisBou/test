@@ -1,6 +1,6 @@
 # magic-datatable-script
 
-The library to make a datatable AJAX instance on a HTML declarated table.
+Library to make a datatable AJAX instance on a HTML declarated table.
 
 DataTables is a table enhancing plug-in for the jQuery Javascript library, adding sorting, paging and filtering abilities to plain HTML tables with minimal effort. (See the GitHub Project : https://github.com/DataTables/DataTables)
 
